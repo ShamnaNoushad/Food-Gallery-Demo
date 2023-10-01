@@ -1,0 +1,247 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+/* ----------------banner start------------------- */
+#ttl {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px rgb(110, 64, 64);
+    font-size: xxx-large;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#ttl1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 130px;
+}
+.banner {
+    background-image: url('https://img.freepik.com/premium-photo/female-hand-palm-holds-orange-pepper-red-background-top-view-flat-lay-banner_164357-8599.jpg');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* ------------------------banner end--------------------- */
+/* ------------------------navbar start----------------- */
+nav {
+    background-color: rgb(253, 247, 247);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+nav ul li a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(236, 67, 21);
+}
+/* ----------------------navbar end--------------- */
+
+h2{
+    color: orangered;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    
+}
+#about{
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    border: 1px solid orangered;
+    margin-top: 30px;
+    
+}
+h6{
+    font-size: medium;
+    text-align: justify;
+   color: orangered; 
+}
+#abt{
+   text-align: justify;
+   color: orangered; 
+}
+
+/* -----------------------menu row 1 start---------------- */
+#menu{
+    margin-top: 50px;
+}
+.row {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.col-3{
+    background-color: rgb(253, 255, 255);
+    width: 200px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 20px;
+    border-color: rgb(109, 96, 146);
+    box-shadow: 0px 0px 5px 1px rgb(106, 94, 49);
+}
+.row1 {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.row2 {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+#btn {
+    background-color: orangered;
+    color: beige;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#btn:hover {
+    background-color: rgb(231, 149, 56);
+}
+img {
+    /* width: 150px; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 40px;
+
+}
+/* -----------------------menu row 1 end---------------- */
+
+/* ----------------------foooter start------------------ */
+#contact{
+    background-color:orangered;
+}
+#footerdiv {
+    
+    color: rgb(238, 234, 234);
+}
+
+#footerdiv a {
+    text-decoration: none;
+    color: rgb(229, 222, 222);
+    text-align: justify;
+}
+
+#footerdiv a:hover {
+    text-decoration: underline;
+    color: rgb(203, 111, 111);
+}
+h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#ab{
+    padding: 5px;
+    border: 0px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    width: 450px;
+}
+#sub{
+    padding: 5px;
+    border: 0px;
+    background-color:white;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+#sub:hover{
+    background-color: wheat;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 25px;
+    color: #32312e;
+}
+/* ------------------------------footer end------------------------- */
+/* Applying Media query */
+@media screen and (max-width:400px) {
+    #ttl{
+        padding-left: 0px;
+    }
+    #ttl1{
+        padding-left: 0px;
+    }
+    #about{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 8px; 
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 500px;
+    }
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 960px;
+    }
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 940px;
+    }
+   #btn{
+    margin-bottom: 10px;
+   }
+    #contact{
+        margin-top: 500px;
+    }
+    form{
+        margin-left: 0px;
+    }
+    #ab{
+        width: 300px;
+    }
+}
